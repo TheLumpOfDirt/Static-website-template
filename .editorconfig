@@ -1,0 +1,16 @@
+# .editorconfig
+# Top-most EditorConfig file
+root = true
+
+# All files: use 2 spaces, LF, UTF-8, trim trailing whitespace, add final newline
+[*]
+end_of_line = lf
+charset = utf-8
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Markdown files: don't trim trailing whitespace (allows for line breaks)
+[*.md]
+trim_trailing_whitespace = false
