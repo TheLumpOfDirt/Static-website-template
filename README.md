@@ -49,7 +49,7 @@ A lightweight, scalable starter template with a modern, modular structure-ideal 
 
 ## ✨ Credits
 
-Created by [Your Name].  
+Created by Alena Lower.  
 Inspired by modern web best practices.
 
 ---
