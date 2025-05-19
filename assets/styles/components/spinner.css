@@ -1,0 +1,26 @@
+/* assets/styles/components/spinner.css */
+.site-spinner {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  color: #666;
+  font-style: italic;
+  padding: 1em;
+  justify-content: center;
+}
+
+.site-spinner__icon {
+  width: 1em;
+  height: 1em;
+  border: 2px solid #ccc;
+  border-top: 2px solid #333;
+  border-radius: 50%;
+  animation: site-spinner-spin 0.7s linear infinite;
+  display: inline-block;
+}
+
+@keyframes site-spinner-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
