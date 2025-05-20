@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 User-agent: *
 Disallow:
 
 Sitemap: https://yourdomain.com/sitemap.xml
+=======
+User-agent: *
+Disallow:
+
+Sitemap: https://yourdomain.com/sitemap.xml
+>>>>>>> 6eb1454b1192890ed1a26bcd05e4c7499fae1180
