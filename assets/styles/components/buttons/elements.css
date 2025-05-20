@@ -1,0 +1,10 @@
+/* assets/styles/components/buttons/elements.css */
+
+.btn__icon {
+  display: inline-block;
+  font-size: 1.2em;
+}
+
+.btn__label {
+  display: inline-block;
+}

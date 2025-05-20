@@ -1,0 +1,10 @@
+/* assets/styles/components/nav/responsive.css */
+
+/* Responsive: Stack navigation vertically on small screens */
+@media (max-width: 600px) {
+  .site-nav__list {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+}

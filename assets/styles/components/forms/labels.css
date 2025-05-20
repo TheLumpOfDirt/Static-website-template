@@ -1,0 +1,8 @@
+/* assets/styles/components/forms/labels.css */
+
+/* ELEMENT: Label */
+.form__label {
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+  display: block;
+}

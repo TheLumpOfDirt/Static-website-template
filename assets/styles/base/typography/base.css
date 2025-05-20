@@ -1,4 +1,4 @@
-/* assets/styles/base/typography.css */
+/* assets/styles/base/typography/base.css */
 
 /* 1. Root and Body */
 html {
@@ -113,7 +113,7 @@ blockquote {
 /* 7. Code & Preformatted Text */
 code,
 pre {
-  font-family: 'Fira Mono', 'Consolas', 'Monaco', monospace;
+  font-family: "Fira Mono", "Consolas", "Monaco", monospace;
   background: #f4f4f4;
   color: #c7254e;
   font-size: 0.95em;

@@ -1,0 +1,10 @@
+/* assets/styles/components/index.css */
+
+/* Import component modules */
+@import "./buttons/index.css";
+@import "./cards/index.css";
+@import "./forms/index.css";
+@import "./header/index.css";
+@import "./footer/index.css";
+@import "./nav/index.css";
+@import "./spinner/index.css";

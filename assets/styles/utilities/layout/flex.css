@@ -1,0 +1,15 @@
+/* assets/styles/utilities/layout/flex.css */
+
+/* Flex Utilities */
+.flex {
+  display: flex;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}

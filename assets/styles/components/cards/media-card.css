@@ -1,0 +1,51 @@
+/* assets/styles/components/cards/media-card.css */
+
+/* BLOCK: Media Card */
+.media-card {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ELEMENT: Visual media (img, video) */
+.media-card__media {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* ELEMENT: Content wrapper */
+.media-card__content {
+  padding: 1rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ELEMENT: Title */
+.media-card__title {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+/* ELEMENT: Description */
+.media-card__description {
+  margin: 0.5rem 0 1rem;
+  flex: 1;
+  color: #555;
+}
+
+/* ELEMENT: Actions (e.g. buttons) */
+.media-card__actions {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+  padding-top: 0.5rem;
+  border-top: 1px solid #e0e0e0;
+}

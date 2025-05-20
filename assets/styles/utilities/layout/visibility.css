@@ -1,0 +1,9 @@
+/* assets/styles/utilities/layout/visibility.css */
+
+/* Visibility Utilities */
+.hidden {
+  display: none !important;
+}
+.visible {
+  display: block !important;
+}

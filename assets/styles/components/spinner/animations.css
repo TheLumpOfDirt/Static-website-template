@@ -1,0 +1,7 @@
+/* assets/styles/components/spinner/animations.css */
+
+@keyframes site-spinner-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

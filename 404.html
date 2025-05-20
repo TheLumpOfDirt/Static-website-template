@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <!-- 404.html -->
-<html lang="en" data-page="About">
+<html lang="en" data-page="404">
   <head>
     <!-- Shared head metadata, links, and base styles -->
     <site-include src="/shared/head.html"></site-include>
     <site-include src="/shared/styles.html"></site-include>
-    <!-- Page-specific stylesheet -->
+    <!-- Page-specific stylesheet (optional overrides) -->
     <link rel="stylesheet" href="/modules/about/about.css" />
   </head>
   <body>
@@ -14,13 +14,15 @@
     <site-include src="/shared/nav.html"></site-include>
 
     <!-- Main Content -->
-    <main class="about-main container" id="main-content">
-      <section class="not-found">
-        <div class="not-found__code">404</div>
-        <div class="not-found__message">
+    <main class="not-found-main container mb-4" id="main-content">
+      <section class="not-found text-center">
+        <div class="not-found__code mt-0 mb-2">404</div>
+        <div class="not-found__message mb-3">
           Sorry, the page you’re looking for can’t be found.
         </div>
-        <a href="/" class="not-found__home-link">Go to Homepage</a>
+        <a href="/" class="not-found__home-link btn btn--primary">
+          <span class="btn__label">Go to Homepage</span>
+        </a>
       </section>
     </main>
 

@@ -1,0 +1,8 @@
+/* assets/styles/components/header/tagline.css */
+
+.site-header__tagline {
+  color: #666;
+  font-size: 1.1rem;
+  font-style: italic;
+  margin-bottom: 0;
+}
