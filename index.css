@@ -1,28 +1,3 @@
-<<<<<<< HEAD
 /* index.css */
 
 @import "/assets/styles/index.css";
-=======
-/* index.css */
-
-/* 1. Base Styles (Resets, Typography) */
-@import "/assets/styles/base/reset.css";
-@import "/assets/styles/base/typography.css";
-
-/* 2. Theme Variables (Colors, Spacing, etc.) */
-@import "/assets/styles/themes/default-theme.css";
-
-/* 3. Component Styles */
-@import "/assets/styles/components/buttons.css";
-@import "/assets/styles/components/cards.css";
-@import "/assets/styles/components/footer.css";
-@import "/assets/styles/components/forms.css";
-@import "/assets/styles/components/header.css";
-@import "/assets/styles/components/nav.css";
-@import "/assets/styles/components/spinner.css";
-
-/* 4. Utility Classes */
-@import "/assets/styles/utilities/accessibility.css";
-@import "/assets/styles/utilities/layout.css";
-@import "/assets/styles/utilities/spacing.css";
->>>>>>> 6eb1454b1192890ed1a26bcd05e4c7499fae1180
