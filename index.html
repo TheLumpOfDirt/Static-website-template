@@ -2,17 +2,17 @@
 <!-- index.html -->
 <html lang="en">
   <head>
-    <!-- Shared head metadata, links, and base styles -->
     <site-include src="/shared/head.html"></site-include>
     <site-include src="/shared/styles.html"></site-include>
   </head>
   <body>
     <!-- Site Header and Navigation -->
+    <site-include src="/shared/darkmode.html"></site-include>
     <site-include src="/shared/header.html"></site-include>
     <site-include src="/shared/nav.html"></site-include>
 
     <!-- Main Content -->
-    <main class="main" id="main-content">
+    <main class="main">
       <section>
         <h2>Home</h2>
         <p>
@@ -39,5 +39,6 @@
     <!-- Scripts -->
     <script src="/assets/scripts/components.js" defer></script>
     <script src="/assets/scripts/dynamic-title.js" defer></script>
+    <script src="/assets/scripts/darkmode.js" defer></script>
   </body>
 </html>

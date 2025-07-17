@@ -10,23 +10,33 @@
   --color-success: #28a745;
   --color-warning: #ffc107;
   --color-danger: #dc3545;
-  --color-background: #ffffff;
+  --color-background: #fff;
   --color-surface: #f8f9fa;
   --color-border: #e0e0e0;
-  --color-text: #222222;
-  --color-text-light: #666666;
+  --color-text: #222;
+  --color-text-light: #666;
+}
 
-  /* Spacing Scale */
-  --space-xs: 0.25rem;
-  --space-sm: 0.5rem;
-  --space-md: 1rem;
-  --space-lg: 2rem;
+.darkmode {
+  --color-primary: #62b1f6;
+  --color-primary-dark: #3581b8;
+  --color-secondary: #2d2d2d;
+  --color-accent: #ff856b;
+  --color-success: #41d97c;
+  --color-warning: #ffdf70;
+  --color-danger: #ff6f7a;
+  --color-background: #181a1b;
+  --color-surface: #242526;
+  --color-border: #38393a;
+  --color-text: #f3f6fb;
+  --color-text-light: #b0b3b8;
 }
 
 .header {
-  background: #f8f9fa;
+  background: var(--color-background);
+  color: var(--color-primary);
   padding: 2rem 0 1rem 0;
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid var(--color-border);
 }
 
 .header__brand {
@@ -64,7 +74,7 @@
 }
 
 .nav {
-  color: orange;
+  color: var(--color-accent);
 }
 
 .nav__list {
@@ -95,6 +105,12 @@
     align-items: center;
     gap: 1rem;
   }
+}
+
+.main {
+  min-height: 100vh;
+  background-color: var(--color-background);
+  color: var(--color-text);
 }
 
 .footer {
@@ -136,4 +152,46 @@
     gap: 0.75rem;
     align-items: center;
   }
+}
+
+/* darkmode */
+
+button {
+  border: none;
+  padding: 0.8em 2em;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 4px;
+  font: inherit;
+  text-transform: uppercase;
+  font-weight: 500;
+  cursor: pointer;
+}
+.cta-button {
+  background-color: var(--accent-color);
+}
+#theme-switch {
+  height: 50px;
+  width: 50px;
+  padding: 0;
+  border-radius: 50%;
+  background-color: var(--base-variant);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+#theme-switch svg {
+  fill: var(--primary-color);
+}
+#theme-switch svg:last-child {
+  display: none;
+}
+.darkmode #theme-switch svg:first-child {
+  display: none;
+}
+.darkmode #theme-switch svg:last-child {
+  display: block;
 }
