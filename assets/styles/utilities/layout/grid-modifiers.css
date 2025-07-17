@@ -1,9 +1,0 @@
-/* assets/styles/utilities/layout/grid-modifiers.css */
-
-/* Grid Modifiers */
-.grid--auto-fit {
-  grid-template-columns: repeat(auto-fit, minmax(var(--grid-min, 200px), 1fr));
-}
-.grid--no-gap {
-  gap: 0;
-}

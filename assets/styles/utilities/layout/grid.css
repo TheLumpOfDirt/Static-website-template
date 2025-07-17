@@ -1,7 +1,0 @@
-/* assets/styles/utilities/layout/grid.css */
-
-/* Grid Utility */
-.grid {
-  display: grid;
-  gap: var(--grid-gap, 1rem);
-}
